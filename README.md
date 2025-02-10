@@ -197,7 +197,7 @@ GROUP BY shift
 	 GROUP BY 1
 	 ORDER BY 2 DESC LIMIT 3;
 ``
-**Q12: Find the Most Popular Product Category**
+***Q12: Find the Most Popular Product Category***
 ``
 		SELECT category,SUM(quantity) AS Popular_category
 		FROM Retail_sales 
